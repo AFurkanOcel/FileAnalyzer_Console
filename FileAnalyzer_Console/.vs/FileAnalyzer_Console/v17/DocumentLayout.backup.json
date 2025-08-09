@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\github\\AFurkanOcel\\FileAnalyzer_Console\\FileAnalyzer_Console\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{802DC7A3-B7F8-45F0-BD56-F1E691D6095B}|FileAnalyzer_Console.csproj|d:\\github\\afurkanocel\\fileanalyzer_console\\fileanalyzer_console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{802DC7A3-B7F8-45F0-BD56-F1E691D6095B}|FileAnalyzer_Console.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{802DC7A3-B7F8-45F0-BD56-F1E691D6095B}|FileAnalyzer_Console.csproj|d:\\github\\afurkanocel\\fileanalyzer_console\\fileanalyzer_console\\filereaders\\txtfilereader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{802DC7A3-B7F8-45F0-BD56-F1E691D6095B}|FileAnalyzer_Console.csproj|solutionrelative:filereaders\\txtfilereader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{802DC7A3-B7F8-45F0-BD56-F1E691D6095B}|FileAnalyzer_Console.csproj|d:\\github\\afurkanocel\\fileanalyzer_console\\fileanalyzer_console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{802DC7A3-B7F8-45F0-BD56-F1E691D6095B}|FileAnalyzer_Console.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{802DC7A3-B7F8-45F0-BD56-F1E691D6095B}|FileAnalyzer_Console.csproj|d:\\github\\afurkanocel\\fileanalyzer_console\\fileanalyzer_console\\textanalyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
@@ -94,13 +94,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "TxtFileReader.cs",
               "DocumentMoniker": "D:\\github\\AFurkanOcel\\FileAnalyzer_Console\\FileAnalyzer_Console\\FileReaders\\TxtFileReader.cs",
               "RelativeDocumentMoniker": "FileReaders\\TxtFileReader.cs",
               "ToolTip": "D:\\github\\AFurkanOcel\\FileAnalyzer_Console\\FileAnalyzer_Console\\FileReaders\\TxtFileReader.cs",
               "RelativeToolTip": "FileReaders\\TxtFileReader.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAewBEAAACpAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAewA8AAACJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-09T10:38:49.478Z",
               "EditorCaption": ""
@@ -113,20 +113,20 @@
               "RelativeDocumentMoniker": "TextAnalyzer.cs",
               "ToolTip": "D:\\github\\AFurkanOcel\\FileAnalyzer_Console\\FileAnalyzer_Console\\TextAnalyzer.cs",
               "RelativeToolTip": "TextAnalyzer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAewBIAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-09T10:38:44.383Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\github\\AFurkanOcel\\FileAnalyzer_Console\\FileAnalyzer_Console\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\github\\AFurkanOcel\\FileAnalyzer_Console\\FileAnalyzer_Console\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAnwDsAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAABuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-08T14:14:02.192Z",
               "EditorCaption": ""

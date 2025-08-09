@@ -10,7 +10,7 @@ namespace FileAnalyzer_Console
     {
         public void Analyze(string content)
         {
-            if (string.IsNullOrWhiteSpace(content))
+            if (string.IsNullOrWhiteSpace(content)) // dosya boş veya geçersiz mi kontrolü.
             {
                 Console.WriteLine("File is empty or invalid!");
                 return;
