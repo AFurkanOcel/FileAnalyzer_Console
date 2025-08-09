@@ -1,15 +1,66 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO; // dosya, klasör işlemlerinde bize (Path, File, FileStream, StreamReader) gibi sınıfları sağlayan .NET kütüphanesi.
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using FileAnalyzer_Console.FileReaders;
 
 namespace FileAnalyzer_Console
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
+            Console.Write("Please enter the path of the file to analyze: ");
+            string filePath = Console.ReadLine();
+            if (File.Exists(filePath) == false) // kullanıcının girdiği dosya yolu var mı kontrolü.
+            {
+                Console.WriteLine("File not found!");
+                return;
+            }
+
+            string extension = Path.GetExtension(filePath).ToLower(); // dosyanın uzantısını aldık ve .txt ve .TXT gibi uzantıları farklı algılamaması adına tüm uzantıları TOLower() ile küçük harfe çevirdik.
+            string content = ""; // FileReader da okunan ve stringe dönüştürülen içeriği, başlangıçta boş olarak tanımladığımız content değişkenine atıcaz.
+
+            try // try catch ile hata ayıklama yapıcaz.
+            {
+                if (extension == ".txt") // extension a atanan uzantı .txt ise TxtFileReader çağrılıyor.
+                {
+                    var txtReader = new TxtFileReader();
+                    content = txtReader.ReadText(filePath);
+                }
+                else if (extension == ".docx")
+                {
+                    throw new Exception("DOCX reading not implemented yet");
+                }
+                else if (extension == ".pdf")
+                {
+                    throw new Exception("PDF reading not implemented yet");
+                }
+                else
+                {
+                    throw new Exception("Unsupported file type");
+                }
+
+                var analyzer = new TextAnalyzer();
+                analyzer.Analyze(content);  // son olarak analiz işlemi için TextAnalyzer() sınıfının içerisindeki Analyze metodunu çağırıyoruz, content i yani string halindeki içeriği gönderiyoruz. 
+            }
+            catch (Exception ex) // bu işlemler yürütülürken oluşan hataları yakalıyoruz. Exception ex ile her türden hata yakalanıyor.
+            {
+                Directory.CreateDirectory("Logs"); // Logs isimli bir klasör oluşturuyoruz alınan hata mesajlarını buraya kaydedicez.
+                string logPath = Path.Combine("Logs", "log.txt");
+
+                // hata mesajının hangi kullanıcı tarafından, hangi tarihte alındığı vb. bilgileri logluyoruz.
+                File.AppendAllText(logPath, Environment.UserName);
+                File.AppendAllText(logPath, Environment.NewLine);
+                File.AppendAllText(logPath, DateTime.Now.ToString("dd.MM.yyyy HH.mm"));
+                File.AppendAllText(logPath, Environment.NewLine);
+                File.AppendAllText(logPath, ex.Message);
+                File.AppendAllText(logPath, Environment.NewLine);
+                File.AppendAllText(logPath, ex.StackTrace);
+                File.AppendAllText(logPath, Environment.NewLine);
+            }
         }
     }
 }
