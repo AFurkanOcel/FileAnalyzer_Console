@@ -5,16 +5,34 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using FileAnalyzer_Console.FileReaders;
+using System.Windows.Forms;
 
 namespace FileAnalyzer_Console
 {
     public class Program
     {
+        [STAThread] // file dialog kullandığımız için kullanammız gerekiyor, sta yani single-threaded apartment ile file dialog un yalnızca bizim thread ile kullanılmasını diğer thread ler erişmeye çalışırsa, diğer thread lerin engellenmesi sağlanıyor.
         static void Main(string[] args)
         {
-            Console.Write("Please enter the path of the file to analyze: ");
-            string filePath = Console.ReadLine();
-            if (File.Exists(filePath) == false) // kullanıcının girdiği dosya yolu var mı kontrolü.
+            string filePath = "";
+
+            OpenFileDialog openFileDialog = new OpenFileDialog(); // OpenFileDialog file dialog u açmaya yarayan bir araç.
+            openFileDialog.Filter = "All files (*.*)|*.*|  Text Files (*.txt)|*.txt|  Word Documents (*.docx)|*.docx|  PDF Files (*.pdf)|*.pdf"; // burada filter ile file dialog üzerinde yalnızca istediğimiz dosya formatlarının görünmesini sağlıyoruz.
+
+            openFileDialog.Title = "FileAnalyzer";
+
+            if (openFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                filePath = openFileDialog.FileName; // erişilen dosyanın adını filePath a atıyoruz. Bu dosya adını FileReader lara gönderip, dosyayı okuycaz ve sonrasında ise Textanalyzer gönderip, dosyayı analiz edicez.
+            }
+            else
+            {
+                Console.WriteLine("No file selected."); // file dialog herhangi bir dosya seçilmeden kapatılırsa konsola "dosya seçilmedi" uyarısını döndürücez.
+                return;
+            }
+
+
+            if (File.Exists(filePath) == false) // dosya var mı kontrolü yapıyoruz.
             {
                 Console.WriteLine("File not found!");
                 return;

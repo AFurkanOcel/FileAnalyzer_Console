@@ -21,3 +21,13 @@ Furkan
 10.08.2025 14.25
 PDF reading not implemented yet
    konum: FileAnalyzer_Console.Program.Main(String[] args) D:\github\AFurkanOcel\FileAnalyzer_Console\FileAnalyzer_Console\Program.cs içinde: satır 39
+Furkan
+10.08.2025 17.50
+File is empty!
+   konum: FileAnalyzer_Console.TextAnalyzer.Analyze(String content) D:\github\AFurkanOcel\FileAnalyzer_Console\FileAnalyzer_Console\TextAnalyzer.cs içinde: satır 15
+   konum: FileAnalyzer_Console.Program.Main(String[] args) D:\github\AFurkanOcel\FileAnalyzer_Console\FileAnalyzer_Console\Program.cs içinde: satır 53
+Furkan
+10.08.2025 17.57
+File is empty!
+   konum: FileAnalyzer_Console.TextAnalyzer.Analyze(String content) D:\github\AFurkanOcel\FileAnalyzer_Console\FileAnalyzer_Console\TextAnalyzer.cs içinde: satır 15
+   konum: FileAnalyzer_Console.Program.Main(String[] args) D:\github\AFurkanOcel\FileAnalyzer_Console\FileAnalyzer_Console\Program.cs içinde: satır 66
