@@ -3,31 +3,31 @@
   "WorkspaceRootPath": "D:\\github\\AFurkanOcel\\FileAnalyzer_Console\\FileAnalyzer_Console\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{802DC7A3-B7F8-45F0-BD56-F1E691D6095B}|FileAnalyzer_Console.csproj|d:\\github\\afurkanocel\\fileanalyzer_console\\fileanalyzer_console\\filereaders\\txtfilereader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{802DC7A3-B7F8-45F0-BD56-F1E691D6095B}|FileAnalyzer_Console.csproj|solutionrelative:filereaders\\txtfilereader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{802DC7A3-B7F8-45F0-BD56-F1E691D6095B}|FileAnalyzer_Console.csproj|d:\\github\\afurkanocel\\fileanalyzer_console\\fileanalyzer_console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{802DC7A3-B7F8-45F0-BD56-F1E691D6095B}|FileAnalyzer_Console.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{802DC7A3-B7F8-45F0-BD56-F1E691D6095B}|FileAnalyzer_Console.csproj|D:\\github\\AFurkanOcel\\FileAnalyzer_Console\\FileAnalyzer_Console\\filereaders\\docxfilereader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{802DC7A3-B7F8-45F0-BD56-F1E691D6095B}|FileAnalyzer_Console.csproj|solutionrelative:filereaders\\docxfilereader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{802DC7A3-B7F8-45F0-BD56-F1E691D6095B}|FileAnalyzer_Console.csproj|d:\\github\\afurkanocel\\fileanalyzer_console\\fileanalyzer_console\\textanalyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{802DC7A3-B7F8-45F0-BD56-F1E691D6095B}|FileAnalyzer_Console.csproj|solutionrelative:textanalyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{802DC7A3-B7F8-45F0-BD56-F1E691D6095B}|FileAnalyzer_Console.csproj|d:\\github\\afurkanocel\\fileanalyzer_console\\fileanalyzer_console\\filereaders\\docxfilereader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{802DC7A3-B7F8-45F0-BD56-F1E691D6095B}|FileAnalyzer_Console.csproj|solutionrelative:filereaders\\docxfilereader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{802DC7A3-B7F8-45F0-BD56-F1E691D6095B}|FileAnalyzer_Console.csproj|D:\\github\\AFurkanOcel\\FileAnalyzer_Console\\FileAnalyzer_Console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{802DC7A3-B7F8-45F0-BD56-F1E691D6095B}|FileAnalyzer_Console.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{802DC7A3-B7F8-45F0-BD56-F1E691D6095B}|FileAnalyzer_Console.csproj|d:\\github\\afurkanocel\\fileanalyzer_console\\fileanalyzer_console\\filereaders\\pdffilereader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{802DC7A3-B7F8-45F0-BD56-F1E691D6095B}|FileAnalyzer_Console.csproj|D:\\github\\AFurkanOcel\\FileAnalyzer_Console\\FileAnalyzer_Console\\filereaders\\txtfilereader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{802DC7A3-B7F8-45F0-BD56-F1E691D6095B}|FileAnalyzer_Console.csproj|solutionrelative:filereaders\\txtfilereader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{802DC7A3-B7F8-45F0-BD56-F1E691D6095B}|FileAnalyzer_Console.csproj|D:\\github\\AFurkanOcel\\FileAnalyzer_Console\\FileAnalyzer_Console\\filereaders\\pdffilereader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{802DC7A3-B7F8-45F0-BD56-F1E691D6095B}|FileAnalyzer_Console.csproj|solutionrelative:filereaders\\pdffilereader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{802DC7A3-B7F8-45F0-BD56-F1E691D6095B}|FileAnalyzer_Console.csproj|d:\\github\\afurkanocel\\fileanalyzer_console\\fileanalyzer_console\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{802DC7A3-B7F8-45F0-BD56-F1E691D6095B}|FileAnalyzer_Console.csproj|D:\\github\\AFurkanOcel\\FileAnalyzer_Console\\FileAnalyzer_Console\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{802DC7A3-B7F8-45F0-BD56-F1E691D6095B}|FileAnalyzer_Console.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{802DC7A3-B7F8-45F0-BD56-F1E691D6095B}|FileAnalyzer_Console.csproj|d:\\github\\afurkanocel\\fileanalyzer_console\\fileanalyzer_console\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{802DC7A3-B7F8-45F0-BD56-F1E691D6095B}|FileAnalyzer_Console.csproj|D:\\github\\AFurkanOcel\\FileAnalyzer_Console\\FileAnalyzer_Console\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{802DC7A3-B7F8-45F0-BD56-F1E691D6095B}|FileAnalyzer_Console.csproj|solutionrelative:packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -50,8 +50,7 @@
               "RelativeToolTip": "packages.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-08-09T10:57:16.284Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-09T10:57:16.284Z"
             },
             {
               "$type": "Document",
@@ -63,18 +62,17 @@
               "RelativeToolTip": "App.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-08-09T10:57:13.575Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-09T10:57:13.575Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "DocxFileReader.cs",
               "DocumentMoniker": "D:\\github\\AFurkanOcel\\FileAnalyzer_Console\\FileAnalyzer_Console\\FileReaders\\DocxFileReader.cs",
               "RelativeDocumentMoniker": "FileReaders\\DocxFileReader.cs",
               "ToolTip": "D:\\github\\AFurkanOcel\\FileAnalyzer_Console\\FileAnalyzer_Console\\FileReaders\\DocxFileReader.cs",
               "RelativeToolTip": "FileReaders\\DocxFileReader.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-09T10:39:45.205Z",
               "EditorCaption": ""
@@ -87,46 +85,46 @@
               "RelativeDocumentMoniker": "FileReaders\\PdfFileReader.cs",
               "ToolTip": "D:\\github\\AFurkanOcel\\FileAnalyzer_Console\\FileAnalyzer_Console\\FileReaders\\PdfFileReader.cs",
               "RelativeToolTip": "FileReaders\\PdfFileReader.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAewA0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-09T10:42:42.141Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "TxtFileReader.cs",
               "DocumentMoniker": "D:\\github\\AFurkanOcel\\FileAnalyzer_Console\\FileAnalyzer_Console\\FileReaders\\TxtFileReader.cs",
               "RelativeDocumentMoniker": "FileReaders\\TxtFileReader.cs",
               "ToolTip": "D:\\github\\AFurkanOcel\\FileAnalyzer_Console\\FileAnalyzer_Console\\FileReaders\\TxtFileReader.cs",
               "RelativeToolTip": "FileReaders\\TxtFileReader.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAewA8AAACJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-09T10:38:49.478Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "TextAnalyzer.cs",
               "DocumentMoniker": "D:\\github\\AFurkanOcel\\FileAnalyzer_Console\\FileAnalyzer_Console\\TextAnalyzer.cs",
               "RelativeDocumentMoniker": "TextAnalyzer.cs",
               "ToolTip": "D:\\github\\AFurkanOcel\\FileAnalyzer_Console\\FileAnalyzer_Console\\TextAnalyzer.cs",
               "RelativeToolTip": "TextAnalyzer.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAewBIAAABUAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAnwBMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-09T10:38:44.383Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\github\\AFurkanOcel\\FileAnalyzer_Console\\FileAnalyzer_Console\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\github\\AFurkanOcel\\FileAnalyzer_Console\\FileAnalyzer_Console\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAABuAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAnwCcAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-08T14:14:02.192Z",
               "EditorCaption": ""

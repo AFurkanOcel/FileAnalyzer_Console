@@ -32,11 +32,13 @@ namespace FileAnalyzer_Console
                 }
                 else if (extension == ".docx")
                 {
-                    throw new Exception("DOCX reading not implemented yet");
+                    var docxReader = new DocxFileReader();
+                    content = docxReader.ReadText(filePath);
                 }
                 else if (extension == ".pdf")
                 {
-                    throw new Exception("PDF reading not implemented yet");
+                    var pdfReader = new PdfFileReader();
+                    content = pdfReader.ReadText(filePath);
                 }
                 else
                 {

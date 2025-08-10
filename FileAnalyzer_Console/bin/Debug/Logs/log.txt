@@ -4,3 +4,20 @@ Hata01!@   konum: FileAnalyzer_Console.Program.Main(String[] args) D:\github\AFu
 Furkan
 09.08.2025 16.34
 Hata01!     konum: FileAnalyzer_Console.Program.Main(String[] args) D:\github\AFurkanOcel\FileAnalyzer_Console\FileAnalyzer_Console\Program.cs içinde: satır 35
+Furkan
+09.08.2025 16.49
+Unsupported file type
+   konum: FileAnalyzer_Console.Program.Main(String[] args) D:\github\AFurkanOcel\FileAnalyzer_Console\FileAnalyzer_Console\Program.cs içinde: satır 43
+Furkan
+09.08.2025 16.49
+DOCX reading not implemented yet
+   konum: FileAnalyzer_Console.Program.Main(String[] args) D:\github\AFurkanOcel\FileAnalyzer_Console\FileAnalyzer_Console\Program.cs içinde: satır 35
+Furkan
+10.08.2025 00.19
+File is empty!
+   konum: FileAnalyzer_Console.TextAnalyzer.Analyze(String content) D:\github\AFurkanOcel\FileAnalyzer_Console\FileAnalyzer_Console\TextAnalyzer.cs içinde: satır 15
+   konum: FileAnalyzer_Console.Program.Main(String[] args) D:\github\AFurkanOcel\FileAnalyzer_Console\FileAnalyzer_Console\Program.cs içinde: satır 47
+Furkan
+10.08.2025 14.25
+PDF reading not implemented yet
+   konum: FileAnalyzer_Console.Program.Main(String[] args) D:\github\AFurkanOcel\FileAnalyzer_Console\FileAnalyzer_Console\Program.cs içinde: satır 39
