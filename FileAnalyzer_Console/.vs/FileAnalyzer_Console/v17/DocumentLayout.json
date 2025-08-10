@@ -74,8 +74,7 @@
               "RelativeToolTip": "FileReaders\\DocxFileReader.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-09T10:39:45.205Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-09T10:39:45.205Z"
             },
             {
               "$type": "Document",
@@ -87,8 +86,7 @@
               "RelativeToolTip": "FileReaders\\PdfFileReader.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAewA0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-09T10:42:42.141Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-09T10:42:42.141Z"
             },
             {
               "$type": "Document",
@@ -100,8 +98,7 @@
               "RelativeToolTip": "FileReaders\\TxtFileReader.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-09T10:38:49.478Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-09T10:38:49.478Z"
             },
             {
               "$type": "Document",
@@ -111,7 +108,7 @@
               "RelativeDocumentMoniker": "TextAnalyzer.cs",
               "ToolTip": "D:\\github\\AFurkanOcel\\FileAnalyzer_Console\\FileAnalyzer_Console\\TextAnalyzer.cs",
               "RelativeToolTip": "TextAnalyzer.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAnwBMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-09T10:38:44.383Z",
               "EditorCaption": ""
@@ -126,8 +123,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-08T14:14:02.192Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-08T14:14:02.192Z"
             }
           ]
         }
