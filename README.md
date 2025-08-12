@@ -1,6 +1,6 @@
-# FileAnalyzer Console Application
+# FileAnalyzer Console App
 
-A console application that allows users to select and analyze files with `.txt`, `.docx`, and `.pdf` extensions.  
+A console app that allows users to select and analyze files with `.txt`, `.docx`, and `.pdf` extensions.  
 The application provides a user-friendly file selection dialog using OpenFileDialog and processes the selected file content with appropriate reader classes.
 
 ## Features
