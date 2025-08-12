@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.IO;
+﻿using System.IO;
 
 namespace FileAnalyzer_Console.FileReaders
 {
@@ -11,11 +6,11 @@ namespace FileAnalyzer_Console.FileReaders
     {
         public string ReadText(string filePath)
         {
-            FileStream fs = new FileStream(filePath, FileMode.Open, FileAccess.Read); // FileStram dosyanın ismini, yapılacak işlemin bilgisini ve verilen izin bilgilerini taşıyan bir kanal.
+            FileStream fs = new FileStream(filePath, FileMode.Open, FileAccess.Read);
 
-            StreamReader reader = new StreamReader(fs); // StreamReader fs ile tanımlanan dosyayı okuyor ve byte'ları stringlere çeviriyor.
+            StreamReader reader = new StreamReader(fs);
 
-            string content = reader.ReadToEnd(); // StreamReader ı Yukarıda tanımladık fakat burada çağırıyoruz. Stringe cevrilen tüm metin content değişkenine atanıyor.
+            string content = reader.ReadToEnd();
 
             reader.Close();
             fs.Close();

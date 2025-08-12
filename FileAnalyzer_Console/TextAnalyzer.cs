@@ -1,58 +1,50 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace FileAnalyzer_Console
 {
     public class TextAnalyzer
     {
-        public void Analyze(string content)
+        public void AnalyzeFile(string content)
         {
-            if (string.IsNullOrWhiteSpace(content)) // dosya boş veya geçersiz mi kontrolü.
+            if (string.IsNullOrWhiteSpace(content))
             {
                 throw new Exception("File is empty!");
             }
 
-            int charCount = content.Length; // metindeki karakter sayısını hesaplar.
-            int lineCount = content.Split('\n').Length; // metni satır satır ayırıp, satır sayısını hesaplar.
+            int charCount = content.Length;
+            int lineCount = content.Split('\n').Length;
 
-            // sayılar ve bağlaçlar analize dahil edilmeyecek.
-            string[] conjunctions = { "ve", "ile", "ama", "ancak" }; // sayılmayacak bağlaçlar.
-            string[] words = content.Split(' ', '\n', '\r'); // boşluk, \n veya \r gördüğünde kelimeyi bitirir.
+            string[] conjunctions = { "ve", "ile", "ama", "ancak" };
+            string[] words = content.Split(' ', '\n', '\r');
 
-            List<string> filteredWords = new List<string>(); // dizinin boyutu sabittir, biz burada filtrelenmiş metinin kaç elemanlı olduğunu bilmediğimiz için dinamik boyutlu olan liste oluşturduk.
+            List<string> filteredWords = new List<string>();
 
-            foreach (string word in words) // metin words dizisinin içerisinde kelime kelime tutuluyor, "string word in words" denince bu dizideki her bir eleman yani kelime, string türünde word isimli değişkene tek tek atanıyor. 
+            foreach (string word in words)
             {
-                string lowercaseWord = word.ToLower(); // kelimelerin tüm harflerini küçük harfe çeviriyoruz. Bu sayede hello ve Helllo kelimelerinin farklı kelime olarak sayılmasına engel oluyoruz.
+                string lowercaseWord = word.ToLower();
 
                 int number;
-                bool isNumber = int.TryParse(lowercaseWord, out number); // tryparse ile kelimeyi int e çevirmeyi dener, eğer başarırsa int değerini başaramazsa da 0 değerini number ın içine atar ve satırın sonucu buna göre true veya false döner, burada bu boolean değeri isnumber ın içine atıyoruz.
+                bool isNumber = int.TryParse(lowercaseWord, out number);
 
                 if (!string.IsNullOrWhiteSpace(lowercaseWord) && !conjunctions.Contains(lowercaseWord) && !isNumber)
                 {
-                    filteredWords.Add(lowercaseWord);// kelime boş değilse, bağlaç değilse veya sayı değilse listeye eklenir.
+                    filteredWords.Add(lowercaseWord);
                 }
             }
 
-            int uniqueWordCount = filteredWords.Distinct().Count();  // distinct ile tekrar eden kelimeleri siliyoruz.
+            int uniqueWordCount = filteredWords.Distinct().Count();
+            Dictionary<string, int> wordAndCounts = new Dictionary<string, int>();
 
-            // tekrar eden kelimeleri ve bu kelimelerin kaç defa tektrar ettiklerinin sayısını, en çok tekrar edenden en az tekrar edene doğru sıralanmış şekilde konsola yazdıracağımız kısım burası.
-            //-----------------------------------------------------------------
-            Dictionary<string, int> wordAndCounts = new Dictionary<string, int>(); // burada dictionary kullanıyoruz bu sayede kelimeler ve tekrar sayıları bir arada tutabiliyoruz. tekrar eden kelime sayısına göre tekrar sayısı yazdığımız için Dictionary<string, int> yapısını kullandık.
-
-            foreach (var word in filteredWords) // filtrelenmiş kelimelerin bulunduğu listedeki her bir elemanı yani kelimeyi, word isimli olarak döngüye sokuyoruz.
+            foreach (var word in filteredWords)
             {
-                if (wordAndCounts.ContainsKey(word)) // sözlükteki kelime, test ettiğimiz kelimeyle uyuşuyorsa kelimenin Value değerini yani bu sözlükteki int değerini 1 artırıyoruz. Sözlüğün yapısı: Dictionary<TKey, TValue>
+                if (wordAndCounts.ContainsKey(word))
                     wordAndCounts[word]++;
                 else
-                    wordAndCounts[word] = 1; // yoksa tekrar sayısını 1 yapıyoruz çünkü test ettiğimiz kelimeye ilk defa rastladık.
+                    wordAndCounts[word] = 1;
             }
 
-            var sortedWordCounts = wordAndCounts.OrderByDescending(wordAndValue => wordAndValue.Value); // Tekrar eden kelimeleri büyükten küçüğe sıralamak için sıralama algoritmaları kullanmam gerekicekti. Onun yerine Bu LINQ yapısını kullandım. bir LINQ metodu olan OrderByDescending wordAndCounts daki her bir elemanı wordAndValue ismiyle alıyor ve büyükten küçüğe doğru sıralıyor. ve bu sıralanmış halini sortedWordCounts a atıyoruz.
-            //-------------------------------------------------------------------
+            var sortedWordCounts = wordAndCounts.OrderByDescending(wordAndValue => wordAndValue.Value);
 
             Console.WriteLine($"Character count: {charCount}");
             Console.WriteLine($"Line count: {lineCount}");
@@ -63,7 +55,7 @@ namespace FileAnalyzer_Console
 
             foreach (var repetitiveWords in sortedWordCounts)
             {
-                if (repetitiveWords.Value > 1) // kelimenin tekrar sayısı 1 ise almıyoruz çünkü mantıken kelime 1 defa geçiyorsa tekrar etmiyordur.
+                if (repetitiveWords.Value > 1)
                 {
                     Console.WriteLine($"{repetitiveWords.Value}  {repetitiveWords.Key}");
                 }

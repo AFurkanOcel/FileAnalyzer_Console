@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Text;
 using DocumentFormat.OpenXml.Packaging;
 using DocumentFormat.OpenXml.Wordprocessing;
 
@@ -10,20 +6,20 @@ namespace FileAnalyzer_Console.FileReaders
 {
     public class DocxFileReader
     {
-        public string ReadText(string filePath) // docx dormatındaki dosyalardaki metni okuma işlemi de neredeyse pdf deki metni okuma işlemi ile aynı.
+        public string ReadText(string filePath)
         {
-            StringBuilder sb = new StringBuilder(); // stringbuilder aynı string gibi bir sınıf, int decimal ise birer veri tipi. stringbuilder ın string den farkı değiştirilebilir olması.
+            StringBuilder sb = new StringBuilder();
 
-            WordprocessingDocument docx = WordprocessingDocument.Open(filePath, false); // WordprocessingDocument sınıfı ile tüm metin, tablo, resim vb. içeriği tutuyoruz.
+            WordprocessingDocument docx = WordprocessingDocument.Open(filePath, false);
 
-            Body body = docx.MainDocumentPart.Document.Body; // Body sıınıfı ile docx dosyasının ana kısımlarını alıyoruz. metin, resim, tablo vb. geriye kalan araçlar, yorumlar, ek veriler filtreleniyor.
+            Body body = docx.MainDocumentPart.Document.Body;
 
-            foreach (var paragraf in body.Elements<Paragraph>()) // body deki her bir resimli tablolu metinli paragrafı paragraf isimli değişkene atıyoruz. buradaki her bir paragraf enter tuşu ile ayrılıyor.
+            foreach (var paragraf in body.Elements<Paragraph>())
             {
-                sb.AppendLine(paragraf.InnerText); // paragraftaki yalnızca text leri stringbuilder a ekliyoruz.
+                sb.AppendLine(paragraf.InnerText);
             }
 
-            docx.Dispose(); // dispose ile docx i kapatıyoruz. kapatma işlemi için dispose kullanmak eğer dispose desteklenmiyorsa close kullanmak daha mantıklı.
+            docx.Dispose();
 
             return sb.ToString();
         }
