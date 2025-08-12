@@ -1,0 +1,24 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/FileAnalyzer_Console/.vs/FileAnalyzer_Console/FileContentIndex/411c027d-ebd1-4e32-991e-53ab886a285d.vsidx
+/FileAnalyzer_Console/.vs/FileAnalyzer_Console/FileContentIndex/689a8f23-95f4-4ce4-830d-ad95151aa21e.vsidx
+/FileAnalyzer_Console/.vs/FileAnalyzer_Console/FileContentIndex/cfa6a9b5-8cd9-413b-acb7-cede1d9140b3.vsidx
+/FileAnalyzer_Console/.vs/FileAnalyzer_Console/FileContentIndex/e181c5fd-d913-47c7-a271-16b6495c9a2d.vsidx
+/FileAnalyzer_Console/.vs/FileAnalyzer_Console/FileContentIndex/e9a2c6c9-f168-458a-bd25-eb3142628639.vsidx
+/FileAnalyzer_Console/.vs/FileAnalyzer_Console/CopilotIndices/17.14.995.13737/CodeChunks.db
+/FileAnalyzer_Console/.vs/FileAnalyzer_Console/CopilotIndices/17.14.995.13737/CodeChunks.db-shm
+/FileAnalyzer_Console/.vs/FileAnalyzer_Console/CopilotIndices/17.14.995.13737/CodeChunks.db-wal
+/FileAnalyzer_Console/.vs/FileAnalyzer_Console/CopilotIndices/17.14.995.13737/SemanticSymbols.db
+/FileAnalyzer_Console/.vs/FileAnalyzer_Console/CopilotIndices/17.14.995.13737/SemanticSymbols.db-shm
+/FileAnalyzer_Console/.vs/FileAnalyzer_Console/CopilotIndices/17.14.995.13737/SemanticSymbols.db-wal
+/FileAnalyzer_Console/.vs/FileAnalyzer_Console/v17/.suo
+/FileAnalyzer_Console/.vs/FileAnalyzer_Console/v17/DocumentLayout.backup.json
+/FileAnalyzer_Console/.vs/FileAnalyzer_Console/v17/DocumentLayout.json
+/FileAnalyzer_Console/bin/Debug/FileAnalyzer_Console.exe
+/FileAnalyzer_Console/bin/Debug/FileAnalyzer_Console.pdb
+/FileAnalyzer_Console/obj/Debug/DesignTimeResolveAssemblyReferences.cache
+/FileAnalyzer_Console/obj/Debug/FileAnalyzer_Console.csproj.AssemblyReference.cache
+/FileAnalyzer_Console/obj/Debug/FileAnalyzer_Console.exe
+/FileAnalyzer_Console/obj/Debug/FileAnalyzer_Console.pdb
