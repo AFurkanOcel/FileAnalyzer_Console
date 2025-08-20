@@ -13,7 +13,7 @@ namespace FileAnalyzer_Console
             string filePath = "";
 
             OpenFileDialog openFileDialog = new OpenFileDialog();
-            openFileDialog.Filter = "All files (*.*)|*.*|  Text Files (*.txt)|*.txt|  Word Documents (*.docx)|*.docx|  PDF Files (*.pdf)|*.pdf";
+            openFileDialog.Filter = "All files (*.txt;*.docx;*.pdf)|*.txt;*.docx;*.pdf|  Text Files (*.txt)|*.txt|  Word Documents (*.docx)|*.docx|  PDF Files (*.pdf)|*.pdf";
 
             openFileDialog.Title = "FileAnalyzer";
 

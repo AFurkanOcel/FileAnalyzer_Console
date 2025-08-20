@@ -31,3 +31,7 @@ Furkan
 File is empty!
    konum: FileAnalyzer_Console.TextAnalyzer.Analyze(String content) D:\github\AFurkanOcel\FileAnalyzer_Console\FileAnalyzer_Console\TextAnalyzer.cs içinde: satır 15
    konum: FileAnalyzer_Console.Program.Main(String[] args) D:\github\AFurkanOcel\FileAnalyzer_Console\FileAnalyzer_Console\Program.cs içinde: satır 66
+Furkan
+20.08.2025 08.58
+Unsupported file type
+   konum: FileAnalyzer_Console.Program.Main(String[] args) D:\github\AFurkanOcel\FileAnalyzer_Console\FileAnalyzer_Console\Program.cs içinde: satır 59
