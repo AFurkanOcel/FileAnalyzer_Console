@@ -23,17 +23,17 @@ The application provides a user-friendly file selection dialog using OpenFileDia
 
 ## 📂 Project Structure
 
-FileAnalyzer_Console/ </b>
-├── Properties/
-├── References/
-├── FileReaders/
-│ ├── TxtFileReader.cs
-│ ├── DocxFileReader.cs
-│ ├── PdfFileReader.cs
-│ ├── App.config
-│ ├── packages.config
-├── Program.cs
-├── TextAnalyzer.cs
+FileAnalyzer_Console/ <br>
+├── Properties/ <br>
+├── References/ <br>
+├── FileReaders/ <br>
+│ ├── TxtFileReader.cs <br>
+│ ├── DocxFileReader.cs <br>
+│ ├── PdfFileReader.cs <br>
+│ ├── App.config <br>
+│ ├── packages.config <br>
+├── Program.cs <br>
+├── TextAnalyzer.cs <br>
 
 ## Usage
 
