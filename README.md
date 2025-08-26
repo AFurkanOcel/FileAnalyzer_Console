@@ -34,7 +34,6 @@ FileAnalyzer_Console/
 │ ├── packages.config
 ├── Program.cs
 ├── TextAnalyzer.cs
-```
 
 ## Usage
 
@@ -48,10 +47,10 @@ FileAnalyzer_Console/
 - **File Selection Dialog**  
 When the program starts, a file selection dialog appears for choosing the file to analyze.
 
-<img width="1100" height="636" alt="selectfile" src="https://github.com/user-attachments/assets/9fcddc28-2d8e-45f9-ad0f-930bc71405ff" />
+<img width="600" height="636" alt="selectfile" src="https://github.com/user-attachments/assets/9fcddc28-2d8e-45f9-ad0f-930bc71405ff" />
 
 
 - **Console Output**  
 After selecting a file, the program analyzes it and displays the results in the console.
 
-<img width="1099" height="637" alt="console" src="https://github.com/user-attachments/assets/7f612d49-83dd-470d-8122-3c6ea542f382" />
+<img width="600" height="637" alt="console" src="https://github.com/user-attachments/assets/7f612d49-83dd-470d-8122-3c6ea542f382" />
