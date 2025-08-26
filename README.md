@@ -23,7 +23,7 @@ The application provides a user-friendly file selection dialog using OpenFileDia
 
 ## 📂 Project Structure
 
-FileAnalyzer_Console/
+FileAnalyzer_Console/ </b>
 ├── Properties/
 ├── References/
 ├── FileReaders/
