@@ -49,6 +49,7 @@ When the program starts, a file selection dialog appears for choosing the file t
 
 <img width="600" height="636" alt="selectfile" src="https://github.com/user-attachments/assets/9fcddc28-2d8e-45f9-ad0f-930bc71405ff" />
 
+---
 
 - **Console Output**  
 After selecting a file, the program analyzes it and displays the results in the console.
