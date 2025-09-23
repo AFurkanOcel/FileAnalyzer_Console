@@ -7,7 +7,6 @@ namespace FileAnalyzer_Console.FileReaders
     {
         public string ReadText(string filePath)
         {
-            #region StringBuilder() kullanarak
             var sb = new StringBuilder();
 
             var pdf = PdfDocument.Open(filePath);
@@ -20,7 +19,6 @@ namespace FileAnalyzer_Console.FileReaders
             pdf.Dispose();
 
             return sb.ToString();
-            #endregion
         }
     }
 }
